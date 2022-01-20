@@ -56,8 +56,6 @@ public class 신고결과받기 {
 				}
 			}
 		}
-
-		
 		System.out.println();
 		System.out.print(answer[0]);
 		for (int i = 1; i < answer.length; i++) {
