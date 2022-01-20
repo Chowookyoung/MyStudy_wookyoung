@@ -50,7 +50,6 @@ public class 신고결과받기2 {
 		}
 		
 		System.out.println("resultLen : "+resultLen);
-		
 		for(int i=0;i<answer.length;i++) {
 			for(int j =0;j<resultLen;j++) {
 				if(id_list[i].equals(resultInfo[j][0])) {
