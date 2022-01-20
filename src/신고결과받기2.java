@@ -57,7 +57,6 @@ public class 신고결과받기2 {
 				}
 			}
 		}
-		
 		for(int i = 0;i<answer.length;i++) {
 			System.out.println(answer[i]+" ");
 		}
