@@ -28,7 +28,6 @@ public class 신고결과받기 {
 				reportInfo[usefulR] = report[i].split(" ");
 				usefulR++;
 			}
-//			System.out.print(report[i]+" ");
 		}
 
 		for (int i = 0; i < id_list.length; i++) {
