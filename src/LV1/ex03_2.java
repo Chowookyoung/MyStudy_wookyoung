@@ -1,4 +1,4 @@
-
+package LV1;
 public class ex03_2 {
 
 	public static void main(String[] args) {

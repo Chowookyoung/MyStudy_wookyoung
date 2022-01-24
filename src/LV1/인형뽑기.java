@@ -1,3 +1,5 @@
+package LV1;
+
 import java.util.Scanner;
 
 public class 인형뽑기 {

@@ -1,3 +1,4 @@
+package LV1;
 
 public class 신고결과받기 {
 

@@ -1,9 +1,9 @@
-
+package LV1;
 public class ex01_solution {
 
 	public static void main(String[] args) {
 
-		String a = "...a¤±¤¤¤·.2^^!D.";
+		String a = "...aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.2^^!D.";
 		String answer = "";
 		String temp = a.toLowerCase();
 
