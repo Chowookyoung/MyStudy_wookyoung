@@ -12,9 +12,23 @@ public class 완주하지못한선수 {
 		String[] participant = {"mislav", "stanko", "mislav", "ana"};
 		String[] completion = {"stanko", "ana", "mislav"};
 
-		HashSet setPart = new HashSet();
-	
+		String answer = "";
 		
+		//정확성 성공, 효율성 실패
+//		for(String i:participant) {
+//			int j = 0;
+//			while(j<completion.length) {
+//				if(completion[j]!=null&&completion[j].equals(i)) {
+//					completion[j]=null;
+//					break;
+//				}
+//				j++;
+//			}
+//			if(j==completion.length)
+//				answer+=i;
+//		}
+		
+		//정확성 통과, 효율성 실패
 //		ArrayList<String> parti = new ArrayList();
 //		for(String i:participant) {
 //			parti.add(i);
