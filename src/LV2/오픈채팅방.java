@@ -18,7 +18,6 @@ class Solution{
 	public String[] solution(String[] record) {
 		
 		HashMap<String,String> map = new HashMap<String,String>(record.length);
-		int j =0;
 		int len = 0;
 		for(String i : record) {
 			String[] re = i.split(" ");
@@ -30,10 +29,9 @@ class Solution{
 			}else {
 				len++;
 			}
-			j++;
 		}
 		String[] answer = new String[len];
-		j=0;
+		int j=0;
 		for(String i : record) {
 			String[] re = i.split(" ");
 			if(re[0].equals("Enter")) {
