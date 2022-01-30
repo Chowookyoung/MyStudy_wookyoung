@@ -17,14 +17,12 @@ public class ex01_2 {
 			ArrayList<String> arr = new ArrayList<String>();
 			String str = s;
 			
-			//¹®ÀÚ¿­ ÀÚ¸£±â
 			while(str.length()>i) {
 				arr.add(str.substring(0,i));
 				str = str.substring(i);
 			}
 			arr.add(str);
 			
-			//¸î¹øÀÌ³ª ¹İº¹ÇÏ´ÂÁö °è»êÇÏ±â
 			int count = 1;
 			for(int j=1;j<=arr.size();j++) {
 				if(j<arr.size()) {
@@ -32,18 +30,18 @@ public class ex01_2 {
 						count++;
 					}else if (count!=1) {
 						a = a+(i*count)-(count+i-3)+i;
-						System.out.println(i+"°³·Î ³ª´³À»¶§ a 1 : "+a);
+						System.out.println(i+"ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ a 1 : "+a);
 						count = 1;
 					}
 				}else if(count!=1) {
 					a = a+(i*count)-(count+i-3);
-					System.out.println(i+"°³·Î ³ª´³À»¶§ a 2 : "+a);
+					System.out.println(i+"ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ a 2 : "+a);
 				}else {
 					a += arr.get(arr.size()-1).length();
 				}
 			}
 			
-			System.out.println(i+"°³·Î ³ª´³À»¶§ a 3 : "+a);
+			System.out.println(i+"ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ a 3 : "+a);
 			if(a!=0&&a<answer)
 				answer = a;
 		}

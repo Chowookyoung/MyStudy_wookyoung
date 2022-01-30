@@ -16,14 +16,12 @@ public class ex01 {
 			
 			String str = s;
 			
-			//문자열 자르기
 			while(str.length()>i) {
 				array.add(str.substring(0,i));
 				str = str.substring(i);
 			}
 			array.add(str);
 
-			//몇번이나 반복하는지 계산하기
 			int count = 1;
 			for(int j=1;j<=array.size();j++) {
 				if(j<array.size()) {
