@@ -17,7 +17,6 @@ class Solution4 {
         String answer = "";
         
         String[] num124 = {"4","1","2"};
-        
         while(n>0) {
         	answer = num124[n%3]+answer;
         	n = (n-1)/3;
