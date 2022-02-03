@@ -22,7 +22,6 @@ class Solution4 {
         	answer = num124[n%3]+answer;
         	n = (n-1)/3;
         }
-        
         return answer;
     }
 }
