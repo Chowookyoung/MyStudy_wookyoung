@@ -33,6 +33,8 @@ class Solution3 {
         	k++;
         }
         
+        //k+1자리수
+        
         return answer;
     }
 }
