@@ -6,11 +6,9 @@ public class 신기한124나라의숫자2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-
 		int n = sc.nextInt();
 		Solution4 sol = new Solution4();
 		System.out.println(sol.solution(n));
-
 	}
 
 }
