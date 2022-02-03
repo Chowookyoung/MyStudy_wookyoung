@@ -35,6 +35,24 @@ class Solution3 {
         
         //k+1자리수
         
+        while(k>=0) {
+        	int pow = (int)Math.pow(3, k);
+        	String num = "";
+        	if(min<=n&&n<=min+pow-1) {
+        		num="1";
+        		max = min+pow-1;
+        	}else if(min+pow<=n&&n<=max-pow) {
+        		num="2";
+        		min = min+pow;
+        		max = max-pow;
+        	}else {
+        		num="4";
+        		min = max-pow+1;
+        	}
+        	answer+=num;
+        	k--;
+        }
+        
         return answer;
     }
 }
