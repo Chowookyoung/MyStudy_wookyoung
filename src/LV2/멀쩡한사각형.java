@@ -36,7 +36,6 @@ class Solution1 {
         long gcd=min;
         while(gcd>1) {
         	if(w%gcd==0&&h%gcd==0) {
-        		
         		break;
         	}
         	gcd--;
