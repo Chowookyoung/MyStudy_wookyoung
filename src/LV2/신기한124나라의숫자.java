@@ -18,6 +18,21 @@ public class 신기한124나라의숫자 {
 class Solution3 {
     public String solution(int n) {
         String answer = "";
+        
+        int k=0;
+        
+        int min = (int)Math.pow(3, k);
+        int max = (int)Math.pow(3, k+1);
+        
+        while(true) {
+        	if(min<=n&&n<=max) {
+        		break;
+        	}
+        	min = max+1;
+        	max = max + (int)Math.pow(3,k+2);
+        	k++;
+        }
+        
         return answer;
     }
 }
